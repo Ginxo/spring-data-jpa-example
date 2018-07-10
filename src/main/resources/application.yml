@@ -1,0 +1,12 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: example
+  datasource:
+    password: a
+    url: "jdbc:h2:~/db_example;DB_CLOSE_DELAY=1000;AUTO_SERVER=TRUE"
+    username: a
+  jpa:
+    hibernate:
+      ddl-auto: create
